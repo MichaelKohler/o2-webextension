@@ -10,7 +10,6 @@ waitUntil('.charge-once', hideAll);
 function hideAll() {
   HIDDEN_ELEMENTS.map((elementSelector) => {
     const element = document.querySelector(elementSelector);
-    console.log('elem?', element);
     if (element) {
       element.style.display = 'none';
     }
